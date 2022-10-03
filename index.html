@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fullpage js</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div id="fullpage">
+      <div class="section s1">
+      
+          <h1>this is slide 1</h1>
+          <a href="https://www.google.com">google</a>
+      </div>
+      <div class="section s2">
+          <h1>this is slide 2</h1>
+          <a href="https://www.google.com">google</a>
+
+      </div>
+      <div class="section s3">
+          <h1>this is slide 3</h1>
+          <a href="https://www.google.com">google</a>
+
+      </div>
+      <div class="section s4">
+          <h1>this is slide 4</h1>
+          <a href="https://www.google.com">google</a>
+
+      </div>
+      <div class="section s5">
+          <h1>this is slide 5</h1>
+          <a href="https://www.google.com">google</a>
+
+      </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+  new fullpage('#fullpage',{
+      autoScrolling:true,
+      navigation:true,
+      anchors:['section1','section2', 'section3', 'section4', 'section5'],
+      navigationTooltips:['home', 'about us', 'heloo', 'about us', 'about us', 'about us'],
+      showActiveTooltip:true
+  });
+    </script>
+</body>
+</html>

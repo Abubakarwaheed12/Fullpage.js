@@ -1,0 +1,59 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   text-align: center;
+    font-size: 45px;
+   color: white;
+}
+ .s1{
+    background-image: url('../img/max-duzij-qAjJk-un3BI-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .s2{
+    background-image: url('../img/daniel-korpai-8GDCzWrcE3M-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .s3{
+    background-image: url('../img/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .s4{
+    background-image: url('../img/walling-XLqiL-rz4V8-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .s5{
+     background-color: black;
+    /* background-image: url('../img/jefferson-santos-9SoCnyQmkzI-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+ }
+ .s1 a, .s2 a,.s3 a,.s4 a,.s5 a{
+    background-color: red;
+    text-decoration: none;
+   font-size: 24px;
+   padding: 10px 24px;
+   text-align: center;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+   background: linear-gradient(to left, salmon 50%, lightblue 50%) right;
+   background-size: 300%;
+   transition: .5s ease-out;
+}
+.s1 a:hover, .s2 a:hover,.s3 a:hover,.s4 a:hover,.s5 a:hover{
+    background-position: left;
+}
+.s1, .s2,.s3,.s4,.s5 {
+    text-align: center;
+}
+
